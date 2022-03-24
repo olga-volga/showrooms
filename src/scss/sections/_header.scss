@@ -1,0 +1,45 @@
+.header {
+	padding: 13px 0;
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__burger {
+		display: none;
+		img {}
+	}
+	&__social {
+		width: 78px;
+		display: flex;
+		justify-content: space-between;
+		
+		li {}
+	}
+	&__social-link {
+		img {}
+	}
+	&__menu {}
+	&__close {
+		display: none;
+	}
+	&__list {
+		width: 384px;
+		display: flex;
+		justify-content: space-between;
+
+		li {}
+	}
+	&__link {
+		font-family: $font-additional-2;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		/* or 22px */
+		color: $main;
+	}
+	&__login {
+		img {}
+	}
+}

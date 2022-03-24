@@ -4,8 +4,11 @@
 @import 'base/_fonts.scss';
 
 * {
-    font-family: $font-main;
     font-style: normal;
 }
+
+@import 'sections/_wrapper.scss';
+@import 'sections/_header.scss';
+@import 'sections/_container.scss';
 
 @import 'media/_media.scss';
